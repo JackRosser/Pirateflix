@@ -43,24 +43,27 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-1">
+            <ul class="navbar-nav jme-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-1 align-self-center">
                 <a class="nav-link active text-graynetflix" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item mx-1">
+              <li class="nav-item mx-1 align-self-center">
                 <a class="nav-link active text-graynetflix" aria-current="page" href="#">TV Shows</a>
               </li>
-              <li class="nav-item mx-1">
+              <li class="nav-item mx-1 align-self-center">
                 <a class="nav-link active text-graynetflix" aria-current="page" href="#">Movies</a>
               </li>
-              <li class="nav-item mx-1">
+              <li class="nav-item mx-1 align-self-center">
                 <a class="nav-link active text-graynetflix" aria-current="page" href="#">Recently Added</a>
               </li>
-              <li class="nav-item mx-1">
+              <li class="nav-item mx-1 align-self-center">
                 <a class="nav-link active text-graynetflix" aria-current="page" href="#">My List</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </ul>
+            <!-- search dropdown -->
+            <ul class="navbar-nav justify-content-center mb-2 mb-lg-0 flex-row">
+              <li class="nav-item dropdown align-self-center mx-1">
+                <a class="nav-link dropdown-toggle dropdown-toggle-off" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fas fa-search text-white"></i>
                 </a>
                 <ul class="dropdown-menu p-2 bg-blacknetflix">
@@ -70,6 +73,24 @@
                       <button class="btn btn-outline-success text-white border-white" type="submit">Search</button>
                     </form>
                   </li>
+                </ul>
+              </li>
+              <!-- fine search dropdown -->
+              <li class="nav-item mx-1 align-self-center mx-2 mx-lg-0">
+                <a class="nav-link active text-graynetflix fs-7" aria-current="page" href="#">KIDS</a>
+              </li>
+              <li class="nav-item mx-1 align-self-center mx-2 mx-lg-0">
+                <a class="nav-link active text-graynetflix" aria-current="page" href="#"><i class="fas fa-bell"></i></a>
+              </li>
+              <li class="nav-item dropdown align-self-center mx-2 mx-lg-0">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  ><img src="./assets/img/avatar.png" style="max-height: 30px" alt="avatar"
+                /></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>

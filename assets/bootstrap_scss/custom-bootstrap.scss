@@ -24,7 +24,12 @@ $new-colors: (
   "graynetflix": $gray_netflix
 );
 
+$new-font-sizes: (
+  7: 0.7rem
+);
+
 $theme-colors: map-merge($theme-colors, $new-colors);
+$font-sizes: map-merge($font-sizes, $new-font-sizes);
 
 @import "mixins/banner";
 @include bsBanner("");

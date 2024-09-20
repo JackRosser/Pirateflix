@@ -50,6 +50,13 @@ header .btn.show {
 header a:hover {
   color: white !important;
 }
+header .dropdown-toggle-off::after {
+  content: none !important;
+}
 header .dropdown-toggle::after {
-  content: none;
+  content: "";
+  color: white;
+}
+header .dropdown-menu {
+  border: var(--bs-dropdown-border-width) solid rgb(179, 179, 179);
 }/*# sourceMappingURL=style.css.map */

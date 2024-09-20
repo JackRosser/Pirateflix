@@ -44,7 +44,16 @@ header {
     color: white !important;
   }
 
+  .dropdown-toggle-off::after {
+    content: none !important;
+  }
+
   .dropdown-toggle::after {
-    content: none;
+    content: "";
+    color: white;
+  }
+
+  .dropdown-menu {
+    border: var(--bs-dropdown-border-width) solid rgb(179, 179, 179);
   }
 }

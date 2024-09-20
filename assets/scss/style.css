@@ -68,4 +68,11 @@ main .car-img {
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
+}
+main .avatar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,11 @@
-/*# sourceMappingURL=keyframes.css.map */
+@keyframes bodywazsp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.appear {
+  animation: bodywazsp 5s;
+}/*# sourceMappingURL=keyframes.css.map */

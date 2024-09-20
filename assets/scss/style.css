@@ -62,7 +62,7 @@ header .dropdown-menu {
 }
 header .navbar-expand-lg .navbar-nav .dropdown-menu {
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(-80%);
 }
 
 main .car-img {
@@ -84,4 +84,7 @@ main .avatar-box {
 main .dropdown-menu {
   position: absolute;
   transform: translateY(-50%) !important;
+}
+main .paddingdasopra {
+  padding-top: 6rem;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@keyframes bodywazsp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.appear {
+  animation: bodywazsp 5s;
+}

@@ -25,7 +25,8 @@ $new-colors: (
 );
 
 $new-font-sizes: (
-  7: 0.7rem
+  "7": 0.7rem,
+  "smaller": 0.6rem
 );
 
 $theme-colors: map-merge($theme-colors, $new-colors);

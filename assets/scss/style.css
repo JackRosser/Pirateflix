@@ -59,4 +59,13 @@ header .dropdown-toggle::after {
 }
 header .dropdown-menu {
   border: var(--bs-dropdown-border-width) solid rgb(179, 179, 179);
+}
+
+main .car-img {
+  max-width: 200px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }/*# sourceMappingURL=style.css.map */

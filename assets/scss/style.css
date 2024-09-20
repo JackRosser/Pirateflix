@@ -60,6 +60,10 @@ header .dropdown-toggle::after {
 header .dropdown-menu {
   border: var(--bs-dropdown-border-width) solid rgb(179, 179, 179);
 }
+header .navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  transform: translateX(-50%);
+}
 
 main .car-img {
   max-width: 200px;

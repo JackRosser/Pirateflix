@@ -56,4 +56,9 @@ header {
   .dropdown-menu {
     border: var(--bs-dropdown-border-width) solid rgb(179, 179, 179);
   }
+
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    transform: translateX(-50%);
+  }
 }

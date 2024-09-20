@@ -76,4 +76,8 @@ main .avatar-box {
   max-width: 100px;
   height: 100px;
   cursor: pointer;
+}
+main .dropdown-menu {
+  position: absolute;
+  transform: translateY(-50%) !important;
 }/*# sourceMappingURL=style.css.map */

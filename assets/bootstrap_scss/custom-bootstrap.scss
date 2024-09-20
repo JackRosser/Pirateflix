@@ -18,15 +18,18 @@ $red_netflix: rgb(229, 9, 20);
 $black_netflix: rgb(34, 31, 31);
 $gray_netflix: rgb(179, 179, 179);
 $avatar: #01ff85;
+$graydark: rgb(81, 81, 81);
 
 $new-colors: (
   "rednetflix": $red_netflix,
   "blacknetflix": $black_netflix,
   "graynetflix": $gray_netflix,
-  "avatar": $avatar
+  "avatar": $avatar,
+  "graydark": $graydark
 );
 
 $new-font-sizes: (
+  "minismaller": 1rem,
   "7": 0.7rem,
   "smaller": 0.6rem
 );

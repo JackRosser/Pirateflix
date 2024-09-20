@@ -16,12 +16,12 @@
 
 $red_netflix: rgb(229, 9, 20);
 $black_netflix: rgb(34, 31, 31);
-$grigio_netflix: rgb(179, 179, 179);
+$gray_netflix: rgb(179, 179, 179);
 
 $new-colors: (
   "rednetflix": $red_netflix,
   "blacknetflix": $black_netflix,
-  "grigionetflix": $grigio_netflix
+  "graynetflix": $gray_netflix
 );
 
 $theme-colors: map-merge($theme-colors, $new-colors);

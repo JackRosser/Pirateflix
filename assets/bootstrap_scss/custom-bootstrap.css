@@ -44,7 +44,7 @@
   --bs-dark: #212529;
   --bs-rednetflix: rgb(229, 9, 20);
   --bs-blacknetflix: rgb(34, 31, 31);
-  --bs-grigionetflix: rgb(179, 179, 179);
+  --bs-graynetflix: rgb(179, 179, 179);
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -55,7 +55,7 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-rednetflix-rgb: 229, 9, 20;
   --bs-blacknetflix-rgb: 34, 31, 31;
-  --bs-grigionetflix-rgb: 179, 179, 179;
+  --bs-graynetflix-rgb: 179, 179, 179;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -3190,7 +3190,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(34, 31, 31);
 }
 
-.btn-grigionetflix {
+.btn-graynetflix {
   --bs-btn-color: #000;
   --bs-btn-bg: rgb(179, 179, 179);
   --bs-btn-border-color: rgb(179, 179, 179);
@@ -3377,7 +3377,7 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
-.btn-outline-grigionetflix {
+.btn-outline-graynetflix {
   --bs-btn-color: rgb(179, 179, 179);
   --bs-btn-border-color: rgb(179, 179, 179);
   --bs-btn-hover-color: #000;
@@ -5033,11 +5033,11 @@ textarea.form-control-lg {
   --bs-alert-link-color: var(--bs-blacknetflix-text-emphasis);
 }
 
-.alert-grigionetflix {
-  --bs-alert-color: var(--bs-grigionetflix-text-emphasis);
-  --bs-alert-bg: var(--bs-grigionetflix-bg-subtle);
-  --bs-alert-border-color: var(--bs-grigionetflix-border-subtle);
-  --bs-alert-link-color: var(--bs-grigionetflix-text-emphasis);
+.alert-graynetflix {
+  --bs-alert-color: var(--bs-graynetflix-text-emphasis);
+  --bs-alert-bg: var(--bs-graynetflix-bg-subtle);
+  --bs-alert-border-color: var(--bs-graynetflix-border-subtle);
+  --bs-alert-link-color: var(--bs-graynetflix-text-emphasis);
 }
 
 @keyframes progress-bar-stripes {
@@ -5471,17 +5471,17 @@ textarea.form-control-lg {
   --bs-list-group-active-border-color: var(--bs-blacknetflix-text-emphasis);
 }
 
-.list-group-item-grigionetflix {
-  --bs-list-group-color: var(--bs-grigionetflix-text-emphasis);
-  --bs-list-group-bg: var(--bs-grigionetflix-bg-subtle);
-  --bs-list-group-border-color: var(--bs-grigionetflix-border-subtle);
+.list-group-item-graynetflix {
+  --bs-list-group-color: var(--bs-graynetflix-text-emphasis);
+  --bs-list-group-bg: var(--bs-graynetflix-bg-subtle);
+  --bs-list-group-border-color: var(--bs-graynetflix-border-subtle);
   --bs-list-group-action-hover-color: var(--bs-emphasis-color);
-  --bs-list-group-action-hover-bg: var(--bs-grigionetflix-border-subtle);
+  --bs-list-group-action-hover-bg: var(--bs-graynetflix-border-subtle);
   --bs-list-group-action-active-color: var(--bs-emphasis-color);
-  --bs-list-group-action-active-bg: var(--bs-grigionetflix-border-subtle);
-  --bs-list-group-active-color: var(--bs-grigionetflix-bg-subtle);
-  --bs-list-group-active-bg: var(--bs-grigionetflix-text-emphasis);
-  --bs-list-group-active-border-color: var(--bs-grigionetflix-text-emphasis);
+  --bs-list-group-action-active-bg: var(--bs-graynetflix-border-subtle);
+  --bs-list-group-active-color: var(--bs-graynetflix-bg-subtle);
+  --bs-list-group-active-bg: var(--bs-graynetflix-text-emphasis);
+  --bs-list-group-active-border-color: var(--bs-graynetflix-text-emphasis);
 }
 
 .btn-close {
@@ -7018,9 +7018,9 @@ textarea.form-control-lg {
   background-color: RGBA(var(--bs-blacknetflix-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-grigionetflix {
+.text-bg-graynetflix {
   color: #000 !important;
-  background-color: RGBA(var(--bs-grigionetflix-rgb), var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-graynetflix-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
@@ -7113,11 +7113,11 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(27, 25, 25, var(--bs-link-underline-opacity, 1)) !important;
 }
 
-.link-grigionetflix {
-  color: RGBA(var(--bs-grigionetflix-rgb), var(--bs-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(var(--bs-grigionetflix-rgb), var(--bs-link-underline-opacity, 1)) !important;
+.link-graynetflix {
+  color: RGBA(var(--bs-graynetflix-rgb), var(--bs-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(var(--bs-graynetflix-rgb), var(--bs-link-underline-opacity, 1)) !important;
 }
-.link-grigionetflix:hover, .link-grigionetflix:focus {
+.link-graynetflix:hover, .link-graynetflix:focus {
   color: RGBA(194, 194, 194, var(--bs-link-opacity, 1)) !important;
   text-decoration-color: RGBA(194, 194, 194, var(--bs-link-underline-opacity, 1)) !important;
 }
@@ -7566,8 +7566,8 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-blacknetflix-rgb), var(--bs-focus-ring-opacity));
 }
 
-.focus-ring-grigionetflix {
-  --bs-focus-ring-color: rgba(var(--bs-grigionetflix-rgb), var(--bs-focus-ring-opacity));
+.focus-ring-graynetflix {
+  --bs-focus-ring-color: rgba(var(--bs-graynetflix-rgb), var(--bs-focus-ring-opacity));
 }
 
 .position-static {
@@ -7740,9 +7740,9 @@ textarea.form-control-lg {
   border-color: rgba(var(--bs-blacknetflix-rgb), var(--bs-border-opacity)) !important;
 }
 
-.border-grigionetflix {
+.border-graynetflix {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-grigionetflix-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-graynetflix-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-black {
@@ -8712,9 +8712,9 @@ textarea.form-control-lg {
   color: rgba(var(--bs-blacknetflix-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-grigionetflix {
+.text-graynetflix {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-grigionetflix-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-graynetflix-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-black {
@@ -8929,9 +8929,9 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-blacknetflix-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
-.link-underline-grigionetflix {
+.link-underline-graynetflix {
   --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-grigionetflix-rgb), var(--bs-link-underline-opacity)) !important;
+  text-decoration-color: rgba(var(--bs-graynetflix-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
 .link-underline {
@@ -9037,9 +9037,9 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-blacknetflix-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-grigionetflix {
+.bg-graynetflix {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-grigionetflix-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-graynetflix-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
